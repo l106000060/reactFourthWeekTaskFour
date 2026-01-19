@@ -5,6 +5,6 @@ import react from "@vitejs/plugin-react";
 export default defineConfig({
   // 開發中、產品路徑
   base:
-    process.env.NODE_ENV === "production" ? "/reactSecondWeekTaskTwo/" : "/",
+    process.env.NODE_ENV === "production" ? "/reactFourthWeekTaskFour/" : "/",
   plugins: [react()],
 });
